@@ -32,8 +32,7 @@ jobs:
         run: Rscript src/data_extraction.R
       
       - name: git setting
-        run:
-        git config --local user.email tishijima@eco-pork.com
+        run: git config --local user.email tishijima@eco-pork.com
         git config --local user.name IshiTatsu-ep
       
       - name: Push data to Github
