@@ -30,3 +30,6 @@ jobs:
 
       - name: Run Data Extraction
         run: Rscript src/data_extraction.R
+      
+      - name: Push data to Github
+        run: bash src/github.sh
